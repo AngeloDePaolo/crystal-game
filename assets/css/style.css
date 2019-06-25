@@ -1,0 +1,101 @@
+/* background image */
+body {
+    background-image: url(../images/papyrus-dark.png);
+}
+
+/* styling for title at top of page */
+#title { 
+    color: white;
+    font-size: 30px;
+    background-color: orange;
+    margin: 0 auto 0 auto;
+    height: 11vh;
+    width: 40vw;
+    text-align: center;
+    border-radius: 30px;
+}
+
+/* styling for box containing instructions verbiage */
+#instructions{
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: peachpuff;
+    height: 40vh;
+    width: 30vw;
+    text-align: left;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+/* styling for computer's randomly generated target score */
+#goalScore{
+    position: relative;
+    float: left;
+    color: purple;
+    font-size: 25px;
+    background-color: lightgreen;
+    height: 11vh;
+    width: 10vw;
+    text-align: center;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+/* styling for player's Win and Loss record that auto increments */
+#winLoss{
+    position: absolute;
+    margin-left: 20vw;
+    color: darkblue;
+    font-size: 20px;
+    background-color: aqua;
+    height: 11vh;
+    width: 10vw;
+    text-align: center;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+#crystalsContainer{
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+
+#redCrystal{
+    position: relative;
+    float: left;
+}
+
+#blueCrystal{
+    float: left;
+}
+
+#yellowCrystal{
+    float: left;
+}
+
+#greenCrystal{
+    float: left;
+}
+
+#totalScore{
+    margin-top: 100px;
+    position: absolute;
+    color: white;
+    background-color: green;
+    height: 2vw;
+    width: 10vw;
+}
+
+#totalScoreNum{
+    margin-top: 135px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    background-color: green;
+    height: 6vw;
+    width: 10vw;
+}
